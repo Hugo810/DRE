@@ -1,0 +1,117 @@
+{
+  "contas_dre": [
+    {
+      "id": 1,
+      "nome": "Venda de Mercadoria",
+      "dre_field": "receita_bruta",
+      "tipo": "receita"
+    },
+    {
+      "id": 2,
+      "nome": "Impostos sobre Vendas",
+      "dre_field": "impostos",
+      "tipo": "despesa"
+    },
+    {
+      "id": 3,
+      "nome": "Compra de Mercadoria",
+      "dre_field": "custo",
+      "tipo": "despesa"
+    },
+    {
+      "id": 4,
+      "nome": "Despesas Administrativas",
+      "dre_field": "despesas_administrativas",
+      "tipo": "despesa"
+    },
+    {
+      "id": 5,
+      "nome": "Distribuição de Lucro",
+      "dre_field": "distribuicao_lucro",
+      "tipo": "despesa"
+    },
+    {
+      "id": 6,
+      "nome": "Investimento",
+      "dre_field": "investimento",
+      "tipo": "outro"
+    },
+    {
+      "id": 7,
+      "nome": "Empréstimos",
+      "dre_field": "emprestimos",
+      "tipo": "outro"
+    },
+    {
+      "id": 8,
+      "nome": "Simples",
+      "dre_field": "impostos",
+      "tipo": "despesa"
+    }
+  ],
+  "lancamentos": [
+    {
+      "id": 1,
+      "tipo": "receber",
+      "data_vencimento": "06/11/2025",
+      "entidade": "masrer",
+      "descricao": "hioh",
+      "valor": 15.0,
+      "status": "Recebido",
+      "data_baixa": "06/11/2025",
+      "conta_banco": "Caixa",
+      "conta_dre_id": 1,
+      "categoria_texto": "Insumos"
+    },
+    {
+      "id": 2,
+      "tipo": "pagar",
+      "data_vencimento": "06/11/2025",
+      "entidade": "Gddd",
+      "descricao": "iohjij",
+      "valor": 15.0,
+      "status": "Pago",
+      "data_baixa": "06/11/2025",
+      "conta_banco": "Caixa",
+      "conta_dre_id": 3,
+      "categoria_texto": "Insumos"
+    },
+    {
+      "id": 3,
+      "tipo": "pagar",
+      "data_vencimento": "06/11/2025",
+      "entidade": "Masterrr",
+      "descricao": "jjiojjoi",
+      "valor": 20.0,
+      "status": "Pago",
+      "data_baixa": "06/11/2025",
+      "conta_banco": "Caixa",
+      "conta_dre_id": 2,
+      "categoria_texto": "Insumos"
+    },
+    {
+      "id": 4,
+      "tipo": "receber",
+      "data_vencimento": "06/11/2025",
+      "entidade": "Marcos",
+      "descricao": "Venda A vista",
+      "valor": 2000.0,
+      "status": "Recebido",
+      "data_baixa": "06/11/2025",
+      "conta_banco": "Dinheiro",
+      "conta_dre_id": 6,
+      "categoria_texto": "Carga"
+    }
+  ],
+  "bancos": [
+    "Caixa",
+    "Dinheiro",
+    "Itau"
+  ],
+  "categorias": [
+    "Carga",
+    "Insumos"
+  ],
+  "next_conta_dre_id": 9,
+  "next_lanc_id": 5
+}
